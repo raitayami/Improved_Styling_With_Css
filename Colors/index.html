@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Color</h1>
+
+    <h2>Introduction to color</h2>
+
+    <p>Colors in CSS can be described in 3 different ways:</p>
+    <ul>
+        <li>Named colors. i.e red, blue, green...</li>
+        <li>RGB. Numeric values describing a mix a of red, green and blue</li>
+        <li>HSL. Numeric values that describe a mix of hue, saturation and lightness</li>
+    </ul>
+
+    <hr>
+
+    <h2>Foreground vs background</h2>
+
+    <p>Foreground is the color the element appears in; background is the background of the element, the box of the element</p>
+    <p>You target the foreground with color, and you target the background color with background-color</p>
+
+    <hr>
+    
+    <h2>Hexadecimal</h2>
+
+    <p>Colors can be specified using hex colors.</p>
+
+    <p>Here are some rules for hex colors</p>
+
+    <ul>
+        <li>They begin with a #</li>
+        <li>Followed by either 3 or 6 characters</li>
+        <li>There are both letters and numbers in a hex value</li>
+        <li>To represent 10-15, we use A-F</li>
+        <li>Some elements will have 3 digits because the first and second are same letters, along with third, fourth and fifth sixth</li>
+        <li>Letters can be uppercase or lowercase</li>
+    </ul>
+    
+    <hr>
+    <h2>RGB Colors</h2>
+
+    <p>To use this begin with rgb(x1,x2,x3)</p>
+    <p>x1 represents the amount of red</p>
+    <p>x2 represents the amount of green</p>
+    <p>x3 represents the amount of green</p>
+    <p>These x values range from 0 to 255</p>
+    <p>Make sure you stay consistent and don't use hex and rgb in the same css file</p>
+
+    <hr>
+
+    <h2>Hue, Saturation, Lightness</h2>
+    <p>The first digit represents teh degree of hue, ranges from 0 to 360.</p>
+    <ul>
+        <li>Red is 0</li>
+        <li>Yellow is 60</li>
+        <li>Green is 120</li>
+        <li> Light blue is 180</li>
+        <li>Blue is 240</li>
+        <li>Purple is 300</li>
+    </ul>
+
+    <p>The second and third digit is percentages</p>
+    <p>Saturation refers to the intensity/purity of the color</p>
+    <ul>
+        <li>As saturations gets closer to 100, color becomes richer</li>
+        <li>As saturation gets closer to 0, color becomes grayer</li>
+    </ul>
+
+    <p>Lightness refers to how light or dark the color is</p>
+    <ul>
+        <li>Halfway is normal lightness</li>
+        <li>Increasing to 100, the color becomes lighter</li>
+        <li>Decreasing to 100, the color becomes darker</li>
+    </ul>
+
+    <p>In RGB, making the color a little darker may affect all 3 color components</p>
+    <p>In HSL, you just change the light value. HSL is useful for making a set of colors that work well together by selecting various colors that have the same lightness and saturation but different hues</p>
+
+    <hr>
+
+    <h2>Opacity and Alpha</h2>
+
+    <p>Transparency</p>
+
+    <p>To use opacity in HSL, use HSLA. The fourth value ranges from 0 to 1. A for alpha.</p>
+    <p>You can think of the alpha value as "The amount of background to mix with the foreground</p>
+    <p>RGB has similar syntax, RGBA. </p>
+    <p>Hex values can have an alpha value too, if it is a 6 digit value, the value ranges from 00(transparent) to FF(opaque)</p>
+    <p>IF it is a 3 digit, add a value at the end.</p>
+    <p>Alpha cna only be used for HSL, RGB, Hex colors</p>
+    <p>there is a named color keyword for 0 opacity. "Transparent". Its same as RGBA(0,0,0,0), and to use it you do, color: transparent;</p>
+
+
+</body>
+</html>
