@@ -1,0 +1,14 @@
+.skeuomorphic{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+}
+
+.skeuomorphic:hover{
+    margin-top: 5px;
+    color: black;
+    box-shadow: 0px 0px;
+}
+  
