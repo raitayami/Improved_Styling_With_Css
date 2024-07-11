@@ -1,0 +1,156 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.colorPallets, .fontChoices{
+    border: 2px solid grey;
+    width:70%;
+    margin: 50px auto;
+}
+
+.colorPallets > h2, .fontChoices > h2 {
+    font-size: 75px;
+    margin: 5px 0px 5px 15px;
+}
+
+.pallet1, .pallet2, .pallet3{
+    padding: 10px;
+
+}
+
+.boxProperty{
+    width: 22%;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+/* pallet1 */
+
+.color1{
+    background-color: #DBA979;
+}
+
+.color2{
+    background-color: #ECCA9C;
+}
+
+.color3{
+    background-color: #E8EFCF;
+}
+
+.color4{
+    background-color: #AFD198;
+}
+
+/* pallet2 */
+
+.color5{
+    background-color: rgb(136, 171, 142);
+}
+
+.color6{
+    background-color: rgb(175, 200, 173);
+}
+
+.color7{
+    background-color: rgb(238, 231, 218);
+}
+
+.color8{
+    background-color: rgb(242, 241, 235);
+}
+
+/* pallet3 */
+
+.color9{
+    background-color: hsla(199, 100%, 50%, 1);
+}
+
+.color10{
+    background-color: hsla(199, 100%, 36%, 1);
+}
+
+.color11{
+    background-color: hsla(191, 100%, 36%, 1);
+}
+
+.color12{
+    background-color: hsla(198, 100%, 72%, 1);
+}
+
+/* FONTS */
+
+/* FONT 1 */
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+.lato-regular, .fontOne > h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* FONT 2 */
+
+.montserrat-alternates-thin {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.montserrat-alternates-regular, .fontTwo > h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.montserrat-alternates-extralight-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+/* FONT 3 */
+
+.prompt-thin {
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.prompt-regular, .fontThree > h1 {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.prompt-extralight-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+  
+
+.fontBoxProperty{
+    width: 40%;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secondary Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>Secondary Navigation</h1>
+
+    <h2>Introduction</h2>
+
+    <h3>Primary Navigation</h3>
+    <p>This navigation system contains the most important links, buttons, that need to be displayed on every single page of the site</p>
+
+    <h3>Secondary Navigation</h3>
+    <p>Known also as breadcrumb navigation. It consists of a clickable list of pages, attributes that led to the current page.</p>
+    <p>It can help users understand the extent of the site and also where they are currently</p>
+
+    <h4>Benefits of using breadcrumbs</h4>
+    <p>Gives users an idea of where they are in the website</p>
+    <p>Allows users to jump backwards in their navigation of the site, rather than clicking back until you find what you are looking for</p>
+
+    <hr>
+    <h2>Simple example of breadcrumbs</h2>
+
+    <p>So, it is difficult to understand where you are on a website that lacks breadcrumb navigation</p>
+    <p>This is how you add it</p>
+
+    <ol>
+        <li>Make the li that has a parent of breadcrumb, display property, inline</li>
+        <li>Breadcrumbs are separated by a / or >. Ad a pseudo-element (.breadcrumb li+li::before) as the property and value as (  content: ">";)</li>
+        <li>Target the a tags inside the .breadcrumb that will remove the underline</li>
+        <li>Add a hover</li>
+
+    </ol>
+
+    <ul class="breadcrumb">
+        <li>
+            <a href="">Shopping</a>
+        </li>
+        <li>
+            <a href="">Fashion</a>
+        </li>
+        <li>
+            <a href="">Shoes</a>
+        </li>
+        <li>
+            <a href="">Jordans</a>
+        </li>
+    </ul>
+
+    <hr>
+    <h2>A few sections skipped as it wasn't that important. It was about designing breadcrumbs, more information about the types of breadcrumbs and common sense</h2>
+
+
+</body>
+</html>
